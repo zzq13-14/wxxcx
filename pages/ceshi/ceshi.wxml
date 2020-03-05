@@ -1,0 +1,8 @@
+<!--pages/chesi/chesi.wxml-->
+<text>pages/chesi/chesi</text>
+<view>测试页</view>
+<view>点击事件</view>
+<view bindtap="network">网络测试</view>
+<button bindtap="save">保存</button>
+<button bindtap="read">读取</button>
+<button bindtap="remove">移除</button>

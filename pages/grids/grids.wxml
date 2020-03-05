@@ -1,0 +1,18 @@
+<!--pages/grids/grids.wxml-->
+<text>pages/grids/grids.wxml</text>
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">Grid</view>
+        <view class="page__desc">九宫格</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-grids">
+            <block wx:for="{{grids}}" wx:key="*this">
+                <navigator url="wwww.baidu.com" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="../images/1.jpg" />
+                    <view class="weui-grid__label">Grid</view>
+                </navigator>
+            </block>
+        </view>
+    </view>
+</view>
